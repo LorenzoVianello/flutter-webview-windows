@@ -668,7 +668,7 @@ void Webview::LoadUrl(const std::string& url) {
   if (IsValid()) {
     std::string MyString;
     MyString = url;
-    webview_->Navigate(MyStryng.c_str());
+    webview_->Navigate(MyString.c_str());
   }
 }
 
