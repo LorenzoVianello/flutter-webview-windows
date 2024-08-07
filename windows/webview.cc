@@ -666,7 +666,7 @@ void Webview::SetScrollDelta(double delta_x, double delta_y) {
 
 void Webview::LoadUrl(const std::string& url) {
   if (IsValid()) {
-    webview_->Navigate(url.c_str());
+    webview_->Navigate(url);
   }
 }
 
